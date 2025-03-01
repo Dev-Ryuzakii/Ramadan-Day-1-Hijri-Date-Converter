@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Limit width for larger screens */
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  #hijriDate {
+    font-size: 1.5em;
+    color: #27ae60;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 20px; /* Smaller font size for mobile */
+    }
+  
+    .container {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    input[type="date"] {
+      font-size: 14px; /* Smaller font size for input */
+    }
+  
+    button {
+      font-size: 14px; /* Smaller font size for button */
+    }
+  
+    #hijriDate {
+      font-size: 1.2em; /* Smaller font size for result */
+    }
+  }
